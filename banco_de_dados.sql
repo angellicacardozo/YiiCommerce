@@ -67,8 +67,8 @@ CREATE TABLE `cliente` (
 
 /*!40000 ALTER TABLE `cliente` DISABLE KEYS */;
 INSERT INTO `cliente` (`id`,`username`,`password`,`email`,`endereco`,`nome`,`telefone`,`delete_date`) VALUES 
- (1,'anamaria','123456','angellica.c.a@gmail.com','Rio de Janeiro','Ana Maria da Silva','11111111',NULL),
- (2,'antoniocarlos','123456','antoniocarlos@gmail.com','Rio de Janeiro','Antonio Carlos da Silva','11111111',NULL);
+ (1,'anamaria','123456','lipsum@gmail.com','Rio de Janeiro','Ana Maria da Silva','11111111',NULL),
+ (2,'antoniocarlos','123456','lipsum2@gmail.com','Rio de Janeiro','Antonio Carlos da Silva','11111111',NULL);
 /*!40000 ALTER TABLE `cliente` ENABLE KEYS */;
 
 
