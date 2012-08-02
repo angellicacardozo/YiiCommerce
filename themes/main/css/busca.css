@@ -1,0 +1,110 @@
+div#content{margin: 0}
+
+div#wrapper {
+    padding-bottom: 20px
+}
+
+div.grid div.items > div
+{
+	width: 247px;
+	float: left
+}
+
+div.grid a.nome
+{
+	padding-left: 0;
+	font-weight: bold
+}
+
+div.grid span
+{
+	display: block
+}
+
+.unfloat  {
+	clear:both;
+	line-height:0;
+}
+
+.preco_por  {
+	color:#F69E07;
+	font-size:18px;
+	line-height:19px;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+
+.imagem img
+{
+	border: 0
+}
+
+.preco_de, .descricao  {
+	color:#666666;
+	font-size:11px;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+
+#search-details {width: 100%}
+#search-details td
+{
+	background-color: #D7EBFF;
+	vertical-align: middle;
+	padding: 8px 0 8px 8px
+}
+#search-details td form
+{
+	width: 265px;
+	float: right
+}
+#search-details td form label
+{
+	padding-right: 10px
+}
+
+div.list-view .summary {
+    margin: 0 0 5px;
+    padding: 5px;
+    float: left;
+    width: 670px;
+    text-align: left;
+}
+
+.list-view .sorter , .list-view .summary {background-color: #D7EBFF;}
+
+.list-view .sorter {
+    font-size: 0.9em;
+    float: left;
+    padding: 5px;
+    width: 300px;
+    line-height: 30px
+}
+
+.list-view .sorter ul , .list-view .sorter, .list-view .summary 
+{
+	height: 35px;
+}
+
+div.list-view .sorter ul li
+{
+	float: right;
+	border: 1px solid #000;
+	background-color: #fff;
+	line-height: 12px;
+	width: 100px;
+	text-align: left;
+}
+
+div.list-view .sorter a.asc {
+    background: url("images/up.gif") no-repeat scroll 8px center transparent;
+    padding-left: 20px;
+}
+
+div.list-view .sorter a.desc {
+    background: url("images/down.gif") no-repeat scroll 8px center transparent;
+    padding-left: 20px;
+}

@@ -1,0 +1,108 @@
+div#content{margin: 0}
+
+.cart #content .header
+{
+	margin: 10px 0 10px 0;
+}
+
+.cart #content .header > .total
+{
+	height: 85px;
+}
+
+.cart #content .header > .total
+{
+	float: right
+}
+
+.cart #content .header .total .total,
+.cart #content .header .price
+{
+	font-weight: bold;
+	font-size: 16px
+}
+
+.cart #content .header .total input
+{
+	margin: 5px 5px 0 0;
+}
+
+.price {
+	color:#990000;
+	font-family:arial,verdana,helvetica,sans-serif;
+}
+
+.cart #content table th
+{
+	background-color: #d7ebff;
+	vertical-align: middle;
+	padding: 10px
+}
+
+.tiny {
+	font-family:verdana,arial,helvetica,sans-serif;
+	font-size:9px;
+}
+
+.availGreen  {
+	color:#009900;
+	font-size:10px;
+	font-weight:normal;
+}
+
+#cart-details
+{
+	width: 100%
+}
+
+td a
+{
+	padding-left: 0
+}
+
+td .price {font-size: 12px}
+
+td.action 
+{
+	width: 110px;
+	text-align: right	
+}
+
+td.product
+{
+	width: 685px
+}
+
+#cart-details td
+{
+	padding-bottom: 8px;
+	border-bottom: 1px solid #999
+}
+
+#content input
+{
+	border: 0;
+	padding: 0;
+}
+
+#content input.input-qtd
+{
+	border: 1px solid #333;
+	padding: 4px;
+	width: 60px;
+	margin: 4px;
+}
+
+a#btn-finalizar-compra
+{
+	display: block;
+	text-align: center;
+	width: 362px; height: 42px;
+	margin: 0 auto; padding: 0;
+	line-height: 35px;
+	background: transparent url(images/bg-finalizar-compra.png) left top no-repeat;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 1.3em
+}

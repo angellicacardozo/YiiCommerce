@@ -1,0 +1,96 @@
+div.form {
+	padding: 0 0 0 30px
+}
+
+form
+{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0 15px 0 15px
+}
+
+form *
+{
+	margin: 0; padding: 0
+}
+
+form .row, form .row-wrapper
+{
+	margin: 0 0 12px 0
+}
+
+form .row-wrapper
+{
+	height: 100%;
+	overflow: auto
+}
+
+	form .row-wrapper > div
+	{
+		float: left;
+		margin: 0 10px 0 0
+	}
+
+form .row label, form .row-wrapper label
+{
+	display: block;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999;
+	font-size: 0.9em; /* 11px/16=0.687em */
+	margin-bottom: 5px;
+}
+
+form fieldset.input-group
+{
+	margin: 15px -15px 15px -15px;
+	border: 0;
+	position: relative;
+}
+
+form div.input-group
+{
+	background-color: #F0F0F0;
+	border: 1px solid #DFDFDF;
+	padding: 15px 15px 10px 15px;
+}
+
+legend
+{
+	position: relative;
+	padding-right: 8px;
+	position: absolute;
+	top: -15px;
+	left: 8px;
+} 
+
+	legend > span
+	{
+		display: block;
+		padding: 2px 10px 0 8px;
+		height: 24px;
+		font-size: 0.9em;
+		font-weight: bold;
+		line-height: 18px;
+		background: transparent url(images/bg-fieldset-legend.png) left top no-repeat
+	} 
+
+	legend > span.right
+	{
+		width: 8px;
+		padding: 0;
+		position: absolute;
+		top: 0; right:0;
+		background: transparent url(images/bg-fieldset-legend.png) right top no-repeat
+	}
+
+input[type="text"].large
+{
+	width: 325px;
+}
+
+input[type="text"], input[type="password"], select
+{
+	padding: 4px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}

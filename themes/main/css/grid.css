@@ -1,0 +1,50 @@
+div.grid 
+{
+	width: 820px;
+	padding-left: 10px;
+}
+
+div.grid > div
+{
+	width: 270px;
+	float: left
+}
+
+div.grid a.nome
+{
+	padding-left: 0;
+	font-weight: bold
+}
+
+div.grid span
+{
+	display: block
+}
+
+.unfloat  {
+	clear:both;
+	line-height:0;
+}
+
+.preco_por  {
+	color:#F69E07;
+	font-size:18px;
+	line-height:19px;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+
+.imagem img
+{
+	border: 0
+}
+
+.preco_de, .descricao  {
+	color:#666666;
+	font-size:11px;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
