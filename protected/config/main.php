@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Comércio Eletrônico',
+	'name'=>'Comï¿½rcio Eletrï¿½nico',
 	'charset'=> 'ISO-8859-1',
 	'theme'=>'main',
 	'language'=>'pt',
@@ -60,7 +60,7 @@ return array(
 		),
 		*/
 		'db'=>array(
-			'connectionString'=>'mysql:host=localhost;dbname=claudio_frouche;',
+			'connectionString'=>'mysql:host=localhost;dbname=root;',
 			'username'=>'root',
 			'password'=>'root',
 			'charset'=>'latin1'),
